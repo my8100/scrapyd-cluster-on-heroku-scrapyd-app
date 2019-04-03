@@ -1,0 +1,44 @@
+{
+    "name": "Scrapyd APP",
+    "description": "How to set up Scrapyd cluster on Heroku",
+    "repository": "https://github.com/my8100/scrapyd-cluster-on-heroku",
+    "logo": "https://raw.githubusercontent.com/my8100/scrapydweb/master/scrapydweb/static/v120/icon/fav.png",
+    "keywords": ["scrapyd", "cluster", "heroku", "scrapy", "scrapyweb", "python", "web-crawling", "web-scraping"],
+    "env": {
+        "TZ": {
+            "description": "Timezone of the APP, get it via: python -c \"import tzlocal; print(tzlocal.get_localzone())\"",
+            "value": "UTC",
+            "required": false
+        },
+        "REDIS_HOST": {
+            "description": "Optional, see settings.py in the scrapy_redis_demo_project.zip",
+            "value": "localhost",
+            "required": false
+        },
+        "REDIS_PORT": {
+            "description": "Optional, see settings.py in the scrapy_redis_demo_project.zip",
+            "value": "6379",
+            "required": false
+        },
+        "REDIS_PASSWORD": {
+            "description": "Optional, see settings.py in the scrapy_redis_demo_project.zip",
+            "value": "password",
+            "required": false
+        },
+        "PARSE_ROUND_INTERVAL": {
+            "description": "LogParser would sleep N seconds before starting next round of parsing, the default is 10.",
+            "value": "10",
+            "required": false
+        },
+        "ENABLE_TELNET": {
+            "description": "Whether to collect Crawler.stats and Crawler.engine via telnet, the default is True.",
+            "value": "True",
+            "required": false
+        },
+        "VERBOSE": {
+            "description": "The default is False, set it to True to change the logging level from WARNING to DEBUG.",
+            "value": "False",
+            "required": false
+        }
+    }
+}
