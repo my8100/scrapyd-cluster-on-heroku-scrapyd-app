@@ -2,7 +2,7 @@
     "name": "Scrapyd APP",
     "description": "How to set up Scrapyd cluster on Heroku",
     "repository": "https://github.com/my8100/scrapyd-cluster-on-heroku",
-    "logo": "https://raw.githubusercontent.com/my8100/scrapydweb/master/scrapydweb/static/v120/icon/fav.png",
+    "logo": "https://raw.githubusercontent.com/my8100/files/master/scrapydweb/icons/fav.png",
     "keywords": ["scrapyd", "cluster", "heroku", "scrapy", "scrapyweb", "python", "web-crawling", "web-scraping"],
     "env": {
         "TZ": {
