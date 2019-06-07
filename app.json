@@ -1,5 +1,5 @@
 {
-    "name": "Scrapyd app",
+    "name": "Scrapyd app (via pip, stable)",
     "description": "How to set up Scrapyd cluster on Heroku",
     "repository": "https://github.com/my8100/scrapyd-cluster-on-heroku",
     "logo": "https://raw.githubusercontent.com/my8100/files/master/scrapydweb/icons/fav.png",
@@ -31,12 +31,12 @@
             "required": false
         },
         "ENABLE_TELNET": {
-            "description": "Whether to collect Crawler.stats and Crawler.engine via telnet, the default is True.",
+            "description": "Whether to let LogParser collect Crawler.stats and Crawler.engine via telnet, the default is True.",
             "value": "True",
             "required": false
         },
         "VERBOSE": {
-            "description": "The default is False, set it to True to change the logging level from WARNING to DEBUG.",
+            "description": "The default is False, set it to True to change the logging level of LogParser from WARNING to DEBUG.",
             "value": "False",
             "required": false
         }
